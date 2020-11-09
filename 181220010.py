@@ -246,7 +246,7 @@ def gauss_seidel():
                 
                 U[i][j] = max_value
         
-
+        
         pi = get_pi_from_U(U)
         dif = 0
         for i in range(10):
